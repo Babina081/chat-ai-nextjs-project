@@ -1,7 +1,13 @@
+import FileUploader from "@/components/FileUploader";
 import React from "react";
 
 const UploadPage = () => {
-  return <div>UploadPage</div>;
+  return (
+    <div>
+      {/* FileUploader */}
+      <FileUploader></FileUploader>{" "}
+    </div>
+  );
 };
 
 export default UploadPage;
