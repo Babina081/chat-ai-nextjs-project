@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APPID,
-  measurementId: process.env.FIREBASE_MEASUREMENTID,
+  apiKey: "AIzaSyDSjkKmtyDmDkIi5ealvlznBXj6oaXX8Vs",
+  authDomain: "chat-ai-nextjs-project.firebaseapp.com",
+  projectId: "chat-ai-nextjs-project",
+  storageBucket: "chat-ai-nextjs-project.appspot.com",
+  messagingSenderId: "505394491848",
+  appId: "1:505394491848:web:eec1303cd3a0c629ef50fd",
+  measurementId: "G-PQVJN1LDFB",
 };
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
